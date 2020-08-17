@@ -20,18 +20,18 @@
     - tables serving : dictionary of tables with a table identification number key and a table's number of guest and whether or not a table has children as a strut for the value
 - Server Methods 
     - Output a server's name, shifts per week, and number of tables serving
-    - Output all tables a serving is serving
-    - Update the tables a serving is serving : delete and add tables
-    - Output the server with the least amount of hours from a list of servers using LINQ
+    - Output all tables a server is serving
+    - Update the tables a server is serving : delete and add tables
 - Cook Properties
     - name
     - shifts per week
     - known recipes : list of recipe structs with properties name, time to make, and whether or not it requires meat
 - Cook Methods
     - Output a cook's name, shifts per week, and number of know recipes
+    - Add a recipe 
     - Output all known recipes
     - Output all known recipes that take less than 15 minutes to prepare from a list of recipes using LINQ
     - Output the details of a specific recipe found by name
 
--  Define two `Cook` objects and three `Server` objects in the Program main method
+- Define two `Cook` objects and two `Server` objects in the Program main method
 - Use each method
