@@ -20,8 +20,13 @@
     - tables serving : dictionary of tables with a table identification number key and a table's number of guest and whether or not a table has children as a strut for the value
 - Server Methods 
     - Output a server's name, shifts per week, and number of tables serving
+<<<<<<< HEAD
     - Output all tables a server is serving
     - Update the tables a server is serving : delete and add tables
+=======
+    - Output all tables a serving is serving
+    - Update the tables a serving is serving : delete and add tables
+>>>>>>> bffbed4718a92866a5ec7e33d3cec9d740bd706f
 - Cook Properties
     - name
     - shifts per week
@@ -34,4 +39,8 @@
     - Output the details of a specific recipe found by name
 
 - Define two `Cook` objects and two `Server` objects in the Program main method
+<<<<<<< HEAD
 - Use each method
+=======
+- Use each method
+>>>>>>> bffbed4718a92866a5ec7e33d3cec9d740bd706f
